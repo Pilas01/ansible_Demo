@@ -8,7 +8,7 @@ pipeline{
       }
       stage("Print Nginx Installed"){
         steps{
-           sh"echo nginx_yaml installed on all servers"
+           sh"echo nginx installed on all servers"
         }
       }
   }
